@@ -1,21 +1,21 @@
 %Blinckt1.M
 %Name: M.L.Edwards
 %Purpose: Illustrate MATLAB Linear Simulation with Branchline Coupler
-% Z=35.35
-% E=90deg,
-% f=4GHz
-% ------
-% (4) --| Tlin |--(3)-----< Port B
-% | ------ |
-% Z=50 ---- ----
-% E=90 @ 4GHz |Tlin| |Tlin| Z=50,E=90 @ 4 GHz
-% ---- ----
-% | ------ |
-% Port A >--(1)--| Tlin |---(2)-----< PortC
-% ------
-% Z=35.35,
-% E=90deg,
-% f=4GHz
+%                    Z=35.35
+%                    E=90deg,
+%                    f=4GHz
+%                    ------
+%               (4) --| Tlin |--(3)-----< Port B
+%                |   ------      |
+%     Z=50      ----           ----
+%  E=90 @ 4GHz |Tlin|         |Tlin|  Z=50,E=90 @ 4 GHz
+%               ----           ----
+%                |    ------     |
+%     Port A >--(1)--| Tlin |---(2)-----< PortC
+%                     ------
+%                     Z=35.35,
+%                     E=90deg,
+%                     f=4GHz
 % * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Initlize %clears all variables from previous anaylsis
 %Variables (Optional)

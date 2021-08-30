@@ -2,16 +2,16 @@
 %Name: M.L.Edwards
 %Purpose: Illustrate MATLAB Linear Simulation with Resistive Network
 %
-%% -------------- R=11 --------------
-% | |
-% | |
+%%             -------------- R=11 --------------
+%             |                                  |
+%             |                                  |
 % Port A >--- 3 ---- R=Rs --- (-2) ---- R=Rs --- 1 ---< Port B
-% | | |
-% R=7.7 R=4.9 R=6.6
-% | | |
-% Gnd Gnd Gnd
-% (0) (0) (0)
-%% [Rs=5.2]
+%             |                |                 |
+%            R=7.7           R=4.9             R=6.6
+%             |                |                 |
+%            Gnd              Gnd               Gnd
+%            (0)              (0)               (0)
+%%                 [Rs=5.2]
 % * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Initlize %clears all variables from previous anaylsis
 %Variables

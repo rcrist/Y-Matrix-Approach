@@ -3,13 +3,13 @@
 %Purpose: Illustrate MATLAB Linear Simulation for RLC Networkin Chap 5.3
 %%
 % Port A >--- 1 --- L=1 ---- 2 ---- L=1 --- 3 ---< Port B
-% |
-% |
-% C=2
-% |
-% |
-% Gnd
-% (0)
+%                            |
+%                            |
+%                           C=2
+%                            |
+%                            |
+%                           Gnd
+%                           (0)
 % * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Initlize % clears all variables from previous anaylsis
 %Variables (Optional)
@@ -17,6 +17,7 @@ Initlize % clears all variables from previous anaylsis
 GHz=1e9;
 nH=1e-9;
 pF=1e-12;
+%Initialize the Y and S tables
 Ytable = [];
 Stable = [];
 %Stimulation (single frequency or sweep)

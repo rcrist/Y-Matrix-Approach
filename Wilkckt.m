@@ -2,21 +2,21 @@
 %Name: M.L.Edwards
 %Purpose: Illustrate MATLAB Linear Simulation with Wilkenson Coupler
 %
-% Z=70.7
-% E=90deg,
-% f=4GHz
-% ------
-% --| Tlin |---(2)-----< Port B
-% | ------ |
-% | |
-% Port A >--(1) R=100
-% | |
-% | ------ |
-% --| Tlin |---(3)-----< PortC
-% ------
-% Z=70.7,
-% E=90deg,
-% f=4GHz
+%                   Z=70.7
+%                   E=90deg,
+%                   f=4GHz
+%                   ------
+%                --| Tlin |---(2)-----< Port B
+%               |   ------     |
+%               |              |
+%    Port A >--(1)            R=100
+%               |              |
+%               |   ------     |
+%                --| Tlin |---(3)-----< PortC
+%                   ------
+%                   Z=70.7,
+%                   E=90deg,
+%                   f=4GHz
 %
 % * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Initlize %clears all variables from previous anaylsis
